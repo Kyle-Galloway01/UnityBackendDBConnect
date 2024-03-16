@@ -7,14 +7,17 @@ public class DatabaseManager : MonoBehaviour
 {
     // Connection string for the SQL database
     private string connectionString = "Server=yourServerAddress;Database=yourDatabaseName;User Id=yourUsername;Password=yourPassword;";
+    //TODO: replace with DB info 
 
     // Player name, school, date, and pitch type to search for
+    // TODO: make these inputs somehow for the user to search by
     public string playerName;
     public string school;
     public string date;
     public string pitchType;
 
     // Object in Unity environment to add properties to
+    // TODO: add ball to this 
     public GameObject pitchObject;
 
     // Class to store pitch data
@@ -24,7 +27,7 @@ public class DatabaseManager : MonoBehaviour
         public string School;
         public string Date;
         public string PitchType;
-        // Add additional properties as needed
+        // TODO: Add additional properties as needed
     }
 
     // Start is called before the first frame update
